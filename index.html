@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Web Accessibility</title>
+
+  <meta name="description" content="A jQuery library for modern HTML presentations">
+  <meta name="author" content="Michael Mottola">
+  <meta name="viewport" content="width=1024, user-scalable=no">
+
+  <!-- Core and extension CSS files -->
+  <link rel="stylesheet" media="screen" href="core/deck.core.css">
+  <link rel="stylesheet" media="screen" href="extensions/goto/deck.goto.css">
+  <link rel="stylesheet" media="screen" href="extensions/menu/deck.menu.css">
+  <link rel="stylesheet" media="screen" href="extensions/navigation/deck.navigation.css">
+  <link rel="stylesheet" media="screen" href="extensions/status/deck.status.css">
+  <link rel="stylesheet" media="screen" href="extensions/scale/deck.scale.css">
+
+  <!-- Style theme. More available in /themes/style/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="themes/style/web-2.0.css">
+  <link rel="stylesheet" media="screen" href="custom_styles.css">
+
+  <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="themes/transition/horizontal-slide.css">
+
+  <!-- Basic black and white print styles -->
+  <link rel="stylesheet" media="print" href="core/print.css">
+
+  <script src="modernizr.custom.js"></script>
+</head>
+
+<body>
+  <div class="deck-container">
+
+
+
+
+
+    <!-- Begin slides -->
+    <section class="slide" id="title-slide">
+      <h2>Web Accessibility</h2>
+      <img src="images/bigdatacartoon-3.png" />
+    </section>
+
+    <!--
+    #
+    #
+    # BIG DATA
+    #
+    #
+    -->
+    <section class="slide">
+      <h2>What is Big Data?</h2>
+      <img src="images/bigdata-text.jpg" />
+      <blockquote cite="http://en.wikipedia.org/wiki/Big_data">
+        <p>a collection of data sets so large and complex that it becomes difficult to process using on-hand database management tools or traditional data processing applications.</p>
+        <p><cite>Wikipedia</cite></p>
+      </blockquote>
+    </section>
+
+    <section class="slide">
+      <h2>First Big Data Problem</h2>
+      <div class="slide">
+        <h3>Information Overload</h3>
+        <ul>
+        <li>The 1880 US Census took 8 years to tabulate</li>
+        <li class="slide">Estimated that the 1890 Census would take 14 years!</li>
+        </ul>
+      </div>
+
+      <div class="slide">
+        
+        <table>
+          <tr>
+            <td><img src="images/hollerith-tabular.jpg"/></td>
+            <td style="padding-left: 25px;">
+              <h3>Hollerith Tabulating Machine</h3>
+              <ul>
+                <li>Using punch cards to record information</li>
+                <li>Used electromechanical relays to increment mechanical counters</li>
+                <li>Could count, sort, and set off a bell when card had been read</li>
+                <li>it "tamed" the big data</li>
+                <li>Census was completed in one year</li>
+                <li>...finishing months ahead of schedule and far under budget.</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2>Big Data Timeline</h2>
+      <p>For more history on Big Data check out: </p>
+      <pre><a href="http://www.winshuttle.com/big-data-timeline/">http://www.winshuttle.com/big-data-timeline/</a></pre>
+    </section>
+
+    <section class="slide">
+      <h2>About Big Data</h2>
+      <ul>
+      <li>It's about generating value from very large data sets</li>
+      <li>The amount of data is growing exponentially for many reasons:
+          <ul>
+            <li>retailers building databases of customer activity</li>
+            <li>logistics, financial, government, & health are capturing more data</li>
+            <li>social media</li>
+          </ul>
+      </li>
+      </ul>
+
+      <blockquote class="slide">Provide opportunities to find insights into new and emerging types of data.<p><cite>IBM</cite></p></blockquote>
+      <blockquote class="slide">Holds the promise of giving enterprises deeper insights into your customers, partners, and business.<p><cite>Oracle</cite></p></blockquote>
+    </section> 
+
+    <section class="slide">
+      <h2>Characteristics</h2>
+      <h3>Four V's of Big Data</h3>
+
+      <ol>
+        <li class="slide"><strong>Volume</strong> => The amount of data determines value and potential of data.</li>
+        <li class="slide"><strong>Velocity</strong> => Speed at which data is generated and processed. </li>
+        <li class="slide"><strong>Variety</strong> => Different types of data is widely available.</li>
+        <li class="slide"><strong>Value</strong> => How much is it worth?</li>
+      </ol>
+
+      <div class="slide">
+        <ul>
+          <li><strong>Variability / Veracity</strong>: How good is the data? Various levels of uncertainty and reliability</li>
+          <li><strong>Complexity</strong>: Data comes from multiple sources, needs to be linked, connected and correlated to make sense of the data.</li>
+        </ul>
+      </div>
+    </section>  
+
+    <section class="slide">
+      <h2>Challenges with Big Data</h2>
+
+      <div class="slide">
+        <p>Technical Challenges:</p>
+        <ul>
+          <li>Capturing, Curating, & Analysis of data</li>
+          <li>Storage, & Sharing/Transferring</li>
+          <li>Searching, Visualizing</li>
+        </ul>
+      </div>
+
+      <div class="slide">
+        <p>Personal Challenges</p>
+        <ul>
+          <li>What is the right approach?</li>
+          <li>How is your doing being perceived</li>
+          <li>Data Privacy / Regulations</li>
+          <li>Be careful with who you share your data with</li>
+          <li>Understanding challenges <div class="slide"><i>Challenges are always opportunities!</i></div></li>
+        </ul>
+      </div>
+
+      <div class="slide">
+        <p>Companies are ignoring large chunks of incoming data:</p>
+        <ul>
+          <li>Technology is primitive, resources are scarce</li>
+          <li>Limited capacity for scanning and interpreting all the data coming in.</li>
+          <li>As result, data is simply not getting processed. Leading to losses in opportunity</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2></h2>
+      <img src="images/big-data-wheredatacomesfrom.jpg" />
+    </section>
+
+    <section class="slide">
+      <h2>Leveraging Big Data</h2>
+
+      <ul class="slide">
+        <li>Get a 360 degree view of the customer</li>
+        <li>Build new applications or improve effectiveness of existing applications</li>
+        <li>Realize new sources of competitive advantage</li>
+        <li>Increase customer loyalty</li>
+      </ul>
+
+      <div class="slide">
+        <p>Sectors benefiting from Big Data technologies:</p>
+        <ul>
+          <li><strong>Government</strong>: predict and plan for civil unrest</li>
+          <li><strong>Health Care</strong>: data collection on patients, predict illness and help caregivers make better decisions</li>
+          <li><strong>Farming</strong>: accurately forecast bad weather and crop failures</li>
+          <li><strong>Science & Research</strong>: drive innovation</li>
+          <li><strong>Enterprises and Businesses</strong>: make better bussiness and marketing decisions</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2>Big Data Technologies</h2>
+
+      <div class="slide">
+        <p><strong>Techniques:</strong></p>
+        <ul style="display: inline-block;">
+          <li>A/B Testing</li>
+          <li>Crowdsourcing</li>
+          <li>Data fusion and integration</li>
+          <li>Genetic Algorithms</li>
+          <li>Machine Learning</li>
+        </ul>
+
+        <ul style="display: inline-block; margin-left: 65px;">
+          <li>Natural Language Processing</li>
+          <li>Signal Processing</li>
+          <li>Simulation</li>
+          <li>Time series analysis</li>
+          <li>Visualisation</li>
+        </ul>
+      </div>
+
+      
+      <div class="slide">
+      <p><strong>Solutions:</strong></p>
+        <ul>
+          <li>MapReduce</li>
+          <li>Column-oriented databases</li>
+          <li>Schema-less database (NoSQL databses)</li>
+          <li>Hadoop</li>
+          <li>Hive</li>
+          <li>PIG</li>
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2>Hadoop</h2>
+      <img src="images/hadoop-logo.jpg" style="float: right;" />
+      <h3>Leading Platform for Big Data Analytics</h3>
+      <a href="http://hadoop.apache.org/">http://hadoop.apache.org/</a>
+      <p></p>
+
+      <p>Open Source software for Reliable, Scalable, Distributed Computing.</p>
+
+      <ul>
+        <li>Distributes storage and processing of large data sets across clusters of server computers.</li>
+        <li>Detects and compensates for hardware, or other system problems, <strong>at the application level</strong>.</li>
+      </ul>
+
+      <p>Consists of:</p>
+      <ul>
+        <li><strong>Distributed File System</strong> - High bandwidth storage</li>
+        <li><strong>MapReduce</strong> - Distributes or maps data across multiple servers
+          <ul>
+          <li>Each server summarizes the data it receives</li>
+          <li>Aggregated in reduced state, allowing meaning to be derived from raw data</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+     <section class="slide">
+      <h2>Cloud Based Infrastructures</h2>
+      <p>Cost effective, scalable cloud based technologies:</p>
+
+      <h4>Amazon Web Services - Big Data</h4>
+      <pre><a href="http://aws.amazon.com/big-data/" target="blank">http://aws.amazon.com/big-data/</a></pre>
+
+      <h4>Rackspace - Big Data powered by Apache Hadoop</h4>
+      <pre><a href="http://www.rackspace.com/big-data/" target="blank">http://www.rackspace.com/big-data/</a></pre>
+
+      <h4>Google Cloud Platform - Big Query</h4>
+      <pre><a href="https://cloud.google.com/bigquery/" target="blank">https://cloud.google.com/bigquery/</a></pre>
+    </section>
+
+
+    <!--
+    #
+    #
+    # PREDICTIVE ANALYTICS
+    #
+    #
+    -->
+    <section class="slide">
+      <h2>What is Predictive Analytics?</h2>
+      <img src="images/Predictive_analytics.jpg" />
+      <blockquote cite="http://en.wikipedia.org/wiki/Big_data">
+        <p>The practice of extracting information from existing data sets in order to determine patterns and predict future outcomes and trends. 
+        <p><cite>Webopedia</cite></p>
+      </blockquote>
+    </section>
+
+    <section class="slide">
+      <h2>About Predictive Analytics</h2>
+
+      <ul>
+        <li>Encompasses statistical techniques for:
+          <ul>
+            <li>Data Modeling</li>
+            <li>Machine Learning</li>
+            <li>Data Mining</li>
+          </ul>
+        </li>
+        <li>Analyzing current and historial facts to make predictons about the future
+      </ul>
+
+      <img src="images/ap_dia.jpg" />
+
+    </section>
+
+    <section class="slide">
+      <h2>Improving Business Intelligence</h2>
+
+      <div style="margin: 0 auto;text-align: center;">
+        <img src="images/Predictive-Analytics-next-step-in-business-intelligence.jpg"/>
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2>Driving Deeper into the Individuals</h2>
+
+      <blockquote>Technology that learns from <strong>experience</strong> to predict the future behaviour of <strong>individuals</strong> in order to drive better decisions.</blockquote>
+
+      <div class="slide">
+        <p>Imagine understanding the:</p>
+        <ul>
+          <li>Potential needs</li>
+          <li>Habits</li>
+          <li>Purchases</li>
+          <li>Responses</li>
+        </ul>
+      </div>
+      <p class="slide">...of each individual customer.</p>
+
+      <p class="slide">It can allow you to deliver a <strong>personalized experience</strong> based on that knowledge.</p>
+
+    </section>
+
+    <section class="slide">
+      <h2>Working with Predictive Analytics</h2>
+
+      <img src="images/predictive-analytics-process.png" />
+    </section>
+
+    <section class="slide">
+      <h2>Implementing Predictive Analytics</h2>
+
+      <img src="images/pa-diagram1.png" />
+      <img class="slide" src="images/pa-diagram2.png" />
+    </section>
+
+    <section class="slide">
+      <h2>Predictive Analytics - Models & Use Cases</h2>
+
+      <div class="slide">
+        <p>Models can predict customer attributes and behaviour.</p>
+        <p>Using probability, models can anipate outcomes.</p>
+      </div>  
+      <p class="slide">Very <strong>Powerful</strong> and very <strong>Profitable</strong>.</p>
+
+      <div class="slide">
+        <p>Examples of Uses:</p>
+        <ul>
+          <li>Direct Marketing</li>
+          <li>Customer Retention</li>
+          <li>Fraud Detection</li>
+          <li>Risk Management</li>
+          <li>Clinical Decision Support Systems</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2>Building Adaptive Apps</h2>
+
+      <div class="slide">
+        <pre>Optimizing service to the user based on what you know about the customer/user.</pre>
+      </div>
+
+      <ul class="slide">
+        <li>Adaptive apps anticipates custmomers
+          <ul><li>Become their Digital Butler</li></ul>
+        </li>
+      </ul>
+
+      <div class="slide">
+        <p><strong>Design Principles</strong></p>
+        <ul>
+          <li>Learning who the customer really is</li>
+          <li>Detect customer's intent in the moment</li>
+          <li>Morph functionality and match content</li>
+          <li>Optimize for device and delivery</li>
+        </ul>
+      </div>
+
+
+      <p class="slide"><strong>Age of the customer</strong></p>
+      <p class="slide">To treat like Royality = To treat like individuals</p>
+      <p class="slide">Treat like Royality to get their Loyality</p>
+    </section>
+
+    <section class="slide">
+      <h2>Why Use Predictive Analytics?</h2>
+
+      <h3 class="slide" style="text-align: center; font-size: 2em; margin-top: 100px;">It's better than guessing</h3>
+
+      <h3 class="slide" style="text-align: center;margin-top: 100px;">Don't predict the future.</h3>
+      <h3 class="slide" style="text-align: center;">Influence it!</h3>
+    </section>
+
+    <section class="slide">
+      <h1>Thank You</h1>
+    </section>
+
+    <!-- deck.navigation snippet -->
+    <div aria-role="navigation">
+      <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+      <a href="#" class="deck-next-link" title="Next">&#8594;</a>
+    </div>
+
+    <!-- deck.status snippet -->
+    <p class="deck-status" aria-role="status">
+      <span class="deck-status-current"></span>
+      /
+      <span class="deck-status-total"></span>
+    </p>
+
+    <!-- deck.goto snippet -->
+    <form action="." method="get" class="goto-form">
+      <label for="goto-slide">Go to slide:</label>
+      <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+      <datalist id="goto-datalist"></datalist>
+      <input type="submit" value="Go">
+    </form>
+  </div>
+
+<script src="jquery.min.js"></script>
+
+<!-- Deck Core and extensions -->
+<script src="core/deck.core.js"></script>
+<script src="extensions/menu/deck.menu.js"></script>
+<script src="extensions/goto/deck.goto.js"></script>
+<script src="extensions/status/deck.status.js"></script>
+<script src="extensions/navigation/deck.navigation.js"></script>
+<script src="extensions/scale/deck.scale.js"></script>
+
+<!-- Initialize the deck -->
+<script>
+$(function() {
+  $.deck('.slide');
+});
+</script>
+
+</body>
+</html>

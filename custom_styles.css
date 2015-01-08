@@ -1,0 +1,25 @@
+#title-slide h2  {
+	font-size: 3em;
+}
+#title-slide h2 small {
+	font-size: 0.4em;
+	display: block;
+}
+
+section.slide > div > h2 {
+	text-align: center;
+}
+
+section.slide img {
+	border: 2px solid #e8e8e8;
+	background-color: #ffffff;
+	padding: 5px;
+}
+
+i {
+	font-style: italic;
+}
+
+blockquote {
+	font-size: 1.5em;
+}
