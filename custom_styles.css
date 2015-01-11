@@ -11,7 +11,7 @@ section.slide > div > h2 {
 }
 
 section.slide img {
-	border: 2px solid #e8e8e8;
+	/*border: 2px solid #e8e8e8;*/
 	background-color: #ffffff;
 	padding: 5px;
 }
@@ -22,4 +22,42 @@ i {
 
 blockquote {
 	font-size: 1.5em;
+    padding: 0.6em 1em;
 }
+#title-slide h1 {
+    position: relative !important;
+    transform: none !important;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#title-slide img {
+    float: left;
+    border: 0;
+}
+#title-slide ul {
+    padding-top: 40px;
+    list-style-type: none;
+}
+#title-slide ul li {
+    margin-bottom: 25px;
+}
+.slides-within span {
+    display: block;
+
+}
+
+.slide .deck-before, .slide .deck-previous {
+    opacity: 0.6;
+}
+
+h3 {
+    font-size: 2.25em;
+    font-weight: bold;
+    padding-top: .5em;
+    margin: 0 0 .66666em 0;
+    border-bottom: 3px solid #888;
+    color: #c00;
+    border-bottom-color: #ccc;
+    text-align: center;
+}
+
