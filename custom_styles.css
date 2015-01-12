@@ -67,3 +67,10 @@ h3 {
     padding-top: 40px;
 }
 
+h2, h3 {
+    color: #0b7495;
+}
+
+a, a:hover, a:active, a:visited {
+    color: #607890;
+}

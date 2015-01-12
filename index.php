@@ -95,7 +95,8 @@
                     Screen readers
                     <ul>
                         <li>JAWS (most popular)</li>
-                        <li>URCA (linux)</li>
+                        <li>Thunder</li>
+                        <li>ORCA (linux)</li>
                         <li>Chrome (Chrome Extension)</li>
                     </ul>
                 </li>
@@ -289,21 +290,29 @@
             </ul>
         </section>
 
+        <section class="slide no-header">
+            <ul>
+                <li class="slide">Use strong contrast between text and background</li>
+                <li class="slide">Avoid the use of colour indicators</li>
+                <li class="slide">Avoid time limits when asking users to provide a response or information</li>
+                <li class="slide">Avoid blinking images auto play content</li>
+                <li class="slide">Avoid CAPTCHAs</li>
+                <li class="slide">Provide data tables for graphs</li>
+        </section>
+
         <section class="slide">
             <h2>Accessibility Techniques</h2>
 
-
             <ul>
-                <li><a href="http://www.w3.org/TR/WCAG20-TECHS/">Techniques for WCAG 2.0</a> provided by W3C
-                <ul>
-                    <li>
-                        Accessible Rich Internet Guidelines (ARIA or WAI-ARIA)
-                        <ul>
-                            <li>todo: ABOUT ARIA
-                            <li><a href="http://www.w3.org/TR/wai-aria/">Techniques for WAI-ARIA</a></li>
-                        </ul>
-                    </li>
-                </ul>
+                <li><a href="http://www.w3.org/TR/WCAG20-TECHS/" target="_blank">Techniques for WCAG 2.0</a> provided by W3C</li>
+                <li>
+                    Web Accessibility Initiative – Accessible Rich Internet Application (WAI-ARIA or just ARIA)
+                    <ul>
+                        <li>a set of attributes to help enhance the semantics of a web site or web application to help assistive technologies
+                        <li>ARIA Landmarks (role="navigation") gives us information about the purpose of an element</li>
+                        <li>ARIA attributes (aria-*) gives information about the state of an element</li>
+                        <li><a href="http://www.w3.org/TR/WCAG20-TECHS/aria.html">Techniques for WAI-ARIA</a></li>
+                    </ul>
                 </li>
             </ul>
 
@@ -351,8 +360,38 @@
 <p>Main content</p>
 '); ?></code></pre>
 
+        </section>
 
-        </section> 
+        <section class="slide no-header">
+            <p>Using ARIA Landmark Roles:</p>
+<pre><code><?php echo htmlentities(
+'<header role="banner">
+  <h1>Title of your document</h1>
+  <nav role="navigation">
+    <ul>
+        <li><a href="#">Link 1</a></li>
+        ...
+    </ul>
+  </nav>
+</header>
+
+<main role="main">
+  <h2>Main Content</h2>
+  <p>Juicy content</p>
+</main>
+
+<aside role="complementary">
+  <h2>Sidebar</h2>
+  <p>Complementary content</p>
+</aside>
+
+<footer role="contentinfo">
+  <h2>Footer</h2>
+  <p>Information about the document</p>
+</footer>
+'); ?></code></pre>
+
+        </section>
 
         <section class="slide">
             <h2>Testing Web Accessibility</h2>
@@ -367,10 +406,11 @@
                         <li>Screen readers emulators, Chrome Vox</li>
                     </ul>
                 </li>
-                <li>Use online tools like validators or analysizers:
+                <li>Use online tools like validators or analyzers:
                     <ul>
-                        <li><a href="http://achecker.ca/checker/index.php" target="_blank">http://achecker.ca/checker/index.php</a></li>
+                        <li><a href="http://achecker.ca/checker/index.php" target="_blank">AChecker</a></li>
                         <li><a href="http://wave.webaim.org/" target="_blank">WAVE (Web Accessibility Evaluation Tool</a></li>
+                        <li><a href="http://www.powermapper.com/products/sortsite/checks/accessibility-checks.htm" target="_blank">SortSite - Accessibility Checker and Validator</a></li>
                     </ul>
                 </li>  
             </ul>
@@ -391,7 +431,7 @@
                 <li><a href="http://www.mrbottles.com/" target="_blank">Mr. Bottles</a>
                 <li><a href="http://yvettesbridalformal.p1r8.net/" target="_blank">Yvettes Bridal Formal</a>
             </ul>
-            </ul>z
+            </ul>
         </section>
 
         <section class="slide">
