@@ -69,10 +69,10 @@
         </section>
 
         <section class="slide">
-            <h2>Challenges with Computer Use</h2>
+            <h2>Computer Use Challenges</h2>
 
             <div class="slide">
-                <ul style="display: inline-block; margin-left: 150px;">
+                <ul style="display: inline-block; margin-left: 50px;">
                     <li>Reading Difficulties</li>
                     <li>Difficulty Hearing</li>
                     <li>Difficulty Seeing / Colour Blindness</li>
@@ -81,7 +81,7 @@
                     <li>Declined Cognitive Abilities</li>
                 </ul>
 
-                <img src="images/accessibility.png" alt="" style="display: inline-block; margin-left: 100px; height: 300px;" />
+                <img src="images/accessibility.png" alt="" style="display: inline-block; height: 300px;" />
             </div>
         </section>
 
