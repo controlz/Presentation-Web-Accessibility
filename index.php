@@ -379,11 +379,19 @@
         <section class="slide">
             <h2>Examples of Accessible Sites</h2>
 
+            <p>Good sites:</p>
             <ul>
                 <li><a href="http://www.cdc.gov/" target="_blank">Center for Disease Control Website</a></li>
                 <li><a href="http://www.usa.gov/" target="_blank">U.S Government's Offical Web Portal</a></li>
                 <li><a href="http://www.canada.ca" target="_blank"> Government of Canada Website</a></li>
             </ul>
+
+            <p>Bad sites:</p>
+            <ul>
+                <li><a href="http://www.mrbottles.com/" target="_blank">Mr. Bottles</a>
+                <li><a href="http://yvettesbridalformal.p1r8.net/" target="_blank">Yvettes Bridal Formal</a>
+            </ul>
+            </ul>z
         </section>
 
         <section class="slide">
