@@ -105,7 +105,7 @@ Information and user interface must be presented to users in ways they can perce
 	* Provide alternatives for non-text content.
 
 * Time-based Media
-	*Provide alternatives for time-based media (audio/video).
+	* Provide alternatives for time-based media (audio/video).
 
 * Adaptable
 	* Create content that can be presented in different ways without losing information.
