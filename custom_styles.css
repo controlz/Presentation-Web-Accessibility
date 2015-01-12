@@ -27,6 +27,8 @@ blockquote {
 #title-slide h1 {
     position: relative !important;
     transform: none !important;
+    -webkit-transform: none !important;
+    -mozilla-transform: none !important;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -59,5 +61,9 @@ h3 {
     color: #c00;
     border-bottom-color: #ccc;
     text-align: center;
+}
+
+.slide.no-header {
+    padding-top: 40px;
 }
 

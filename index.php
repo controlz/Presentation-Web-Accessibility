@@ -40,12 +40,12 @@
 
         <!-- Begin slides -->
         <section class="slide" id="title-slide">
-            <h1>Online Accessibility</h1>
+            <h1>Web Accessibility</h1>
             <img src="images/w3c.jpg" alt="" />
             <ul>
                 <li>What it means and why it matters.</li>
-                <li>Making websites complaint with guidelines and laws.</li>
-                <li>Techniques & tools for developers.</li>
+                <li>Making websites compliant with guidelines and laws.</li>
+                <li>Techniques and tools for developers.</li>
             </ul>
         </section>
 
@@ -61,7 +61,7 @@
             <img src="images/accessibility.gif" alt="" />
             <blockquote class="slide">
                 <p class="slides-within">
-                    <span class="slide">Is about making apps and websites that are inclusive to all users</span>
+                    <span>Is about making apps and websites that are inclusive to all users</span>
                     <span class="slide">regardless of web browsing experience</span>
                     <span class="slide">or their physical or mental capabilities</span>
                 </p>
@@ -69,7 +69,7 @@
         </section>
 
         <section class="slide">
-            <h2>Challenges Affecting Computer Use</h2>
+            <h2>Challenges with Computer Use</h2>
 
             <div class="slide">
                 <ul style="display: inline-block; margin-left: 150px;">
@@ -86,14 +86,24 @@
         </section>
 
         <section class="slide">
-            <h2>Computer Use</h2>
+            <h2>Assistive Technologies</h2>
+
+            <blockquote>Hardware and Software to aid people's computer use</blockquote>
 
             <ul>
-                <li>Screen readers</li>
+                <li>
+                    Screen readers
+                    <ul>
+                        <li>JAWS (most popular)</li>
+                        <li>URCA (linux)</li>
+                        <li>Chrome (Chrome Extension)</li>
+                    </ul>
+                </li>
+                <li>Voice recognication programs</li>
                 <li>Braille displays</li>
                 <li>Screen magnifiers</li>
-                <li>Browsing with stylesheets disabled</li>
-                <li>Adjusting contrast levels</li>
+                <li>Browser options/confirations</li>
+                <li>Browser extensions</li>
             </ul>
         </section>
 
@@ -102,14 +112,17 @@
             <div class="slide">
                 <ul>
                     <li>So many of us with disabilities</li>
-                    <li>Social Inclusion, no gets left behind</li>
+                    <li>Social Inclusion - "no gets left behind"</li>
                     <li>Equal access to information and equal opportunity</li>
-                    <li>Depending on location and company size, it's the Law!</li>
+                    <li>It's the Law! (depending on jurisdiction and company size)</li>
                 </ul>
-
-                <ul class="slide">
-                    <li>Entire world is moving to an accessible web</li>
-                    <li>Sites become more usable for everyone</li>
+            </div>
+            <div class="slide">
+                <p>Additional considerations:</p>
+                <ul>
+                    <li>Search Engine Optimization</li>
+                    <li>Accessibility and usability go hand in hand</li>
+                    <li>Entire world is moving to an accessible web, this decade!</li>
                 </ul>
             </div>
         </section>
@@ -118,9 +131,21 @@
             <h2>Canadian Accessibility Standards</h2>
 
             <ul>
-                <li>Approved Common Look and Feel (CLF) 1.0 standards in 2000</li>
-                <li>CLF 1.0 mirrored Web Content Accessibility Guidelines (WCAG) 1.0</li>
-                <li>2011, CLF 2.0 was replaced with the Standard on Web Accessibility, based on WCAG 2.0.</li>
+                <li>Approved Common Look and Feel (CLF) 1.0 standards in 2000
+                    <ul>
+                        <li>mirrored Web Content Accessibility Guidelines (WCAG) 1.0</li>
+                    </ul>
+                </li>
+                
+                <li>2011, CLF 2.0 was replaced with the Standard on Web Accessibility
+                    <ul>
+                        <li>Based on WCAG 2.0</li>
+                        <li>Part of a group of official Web Standards for the Government of Canada
+                            <ul>
+                                <li>Accessibility, Usability, Operability, Optimization for Mobile </li>
+                            </ul>
+                        </li>
+                    <ul>
             </ul>
         </section>
 
@@ -146,9 +171,13 @@
         </section>
 
         <section class="slide">
-            <h2>Legal Enforcement</h2>
+            <h2>Legal Enforcement?</h2>
 
-            <p>Failure to comply to AODA could result in fines of $50,000 per day for directors and officers and up to $100,000 per day for corporations.</p>
+            <p>Failure to comply to AODA could result in fines of:</p>
+            <ul>
+                <li>$50,000 per day for directors and officers </li>
+                <li>up to $100,000 per day for corporations.</li>
+            </ul>
         </section>
 
         <section class="slide">
@@ -246,65 +275,114 @@
         </section>
 
         <section class="slide">
-            <h2>Implementing Standards</h2>
+            <h2>Making Websites Accessible</h2>
 
-            <p>Provide alternative text to describe images</p>
-            <pre><code><?php echo htmlentities('<img src="logo.png" alt="Ekomodi Enterprises Inc. Logo" >'); ?></code></pre>
+            <ul>
+                <li class="slide">Provide alternate text and formats</li>
+                <li class="slide">Use headings correctly</li>
+                <li class="slide">Use distinct and meaningful titles</li>
+                <li class="slide">Simply navigation and consider keyboard only users, use skip navigation links</li>
+                <li class="slide">Make all functionality available via keyboard, or skippable</li>
+                <li class="slide">Make all form inputs have an associated label</li>
+                <li class="slide">Have visible indication of focus</li>
+                <li class="slide">Include captions audio/video clips</li>
+            </ul>
+        </section>
 
-            <p>Provide alternative text to describe photos</p>
+        <section class="slide">
+            <h2>Accessibility Techniques</h2>
+
+
+            <ul>
+                <li><a href="http://www.w3.org/TR/WCAG20-TECHS/">Techniques for WCAG 2.0</a> provided by W3C
+                <ul>
+                    <li>
+                        Accessible Rich Internet Guidelines (ARIA or WAI-ARIA)
+                        <ul>
+                            <li>todo: ABOUT ARIA
+                            <li><a href="http://www.w3.org/TR/wai-aria/">Techniques for WAI-ARIA</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </li>
+            </ul>
+
+        </section>
+
+        <section class="slide no-header">
+            <p>Provide alternative text to describe images:</p>
+            <pre><code><?php echo htmlentities('<img src="logo.png" alt="Ekomodi Enterprises: Vehicles your way." >'); ?></code></pre>
+
+            <p>Provide alternative text to describe photos:</p>
             <pre><code><?php echo htmlentities('<img src="lottery_winners.gif" alt="Husband and wife jumping for joy holding a winning lottery ticket" >'); ?></code></pre>
 
             <p>For purely decorative images use empty alt:</p>
             <pre><code><?php echo htmlentities('<img src="snowflake.png" alt="" >'); ?></code></pre>
+        </section> 
 
-        </section>
-
-        <section class="slide">
-            <p>Keep headers in order</p>
-            <pre><code><?php echo htmlentities('<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h4>Heading 4</h4>
+        <section class="slide no-header">
+            <p>Highlight links when in focus:</p>
+            <img src="images/tips_focus.png" alt="Example of Focus" />
+<pre><code><?php echo htmlentities(
+'a:focus { 
+    border: 1px solid #ffa500; 
+}
 '); ?></code></pre>
-        </section>
 
-        <section class="slide">
-            <h3>ARIA Landmarks</h3>
+        </section> 
+
+        <section class="slide no-header">
+            <p>Adding skip to links:</p>
+<pre><code><?php echo htmlentities(
+'<div class="skip">
+    <a href="#navigation">Skip to navigation</a> |
+    <a href="#main-content">Skip to main content</a>
+</div>
+'); ?></code></pre>
+
+<pre><code><?php echo htmlentities(
+'<nav id="navigation">
+    <ul>
+    ...
+    </ul>
+</nav>
+
+<a name="main-content"></a>
+<p>Main content</p>
+'); ?></code></pre>
 
 
-            <pre><code><?php echo htmlentities('
-<header role="header">
-    asd
-</header>
-            '); ?></code></pre>
-        </section>
+        </section> 
 
         <section class="slide">
             <h2>Testing Web Accessibility</h2>
 
-            <p>Tools to scan websites:</p>
+            <p>When testing your websites:</p>
             <ul>
-                <li><a href="http://achecker.ca/checker/index.php" target="_blank" aria-haspopup="true">http://achecker.ca/checker/index.php</a></li>
-                <li><a href="http://wave.webaim.org/" target="_blank" aria-haspopup="true">WAVE (Web Accessibility Evaluation Tool</a></li>
+                <li>Try navigating without a mouse</li>
+                <li>Test with CSS and JavaScript disabled</li>
+                <li>Use assistive technologies or software that mimics them:
+                    <ul>
+                        <li>Browser extensions/plugins</li>
+                        <li>Screen readers emulators, Chrome Vox</li>
+                    </ul>
+                </li>
+                <li>Use online tools like validators or analysizers:
+                    <ul>
+                        <li><a href="http://achecker.ca/checker/index.php" target="_blank">http://achecker.ca/checker/index.php</a></li>
+                        <li><a href="http://wave.webaim.org/" target="_blank">WAVE (Web Accessibility Evaluation Tool</a></li>
+                    </ul>
+                </li>  
             </ul>
-
-            <p>Screen reader emulators:</p>
         </section>
 
         <section class="slide">
-            <h2>Common Mistakes</h2>
-            <ul>
-                <li>Developers not including alternate text</li>
-                <li>Colour Contrast</li>
-                <li>Requiring a mouse to navigate</li>
-                <li>Lack of understanding</li>
-            </ul>
-        </section>
-
-        <section class="slide">
-            <h2>Other Tools</h2>
+            <h2>Examples of Accessible Sites</h2>
 
             <ul>
-                <li>Web Experience Toolkit (WET), available at https://github.com/wet-boew/wet-boew</li>
+                <li><a href="http://www.cdc.gov/" target="_blank">Center for Disease Control Website</a></li>
+                <li><a href="http://www.usa.gov/" target="_blank">U.S Government's Offical Web Portal</a></li>
+                <li><a href="http://www.canada.ca" target="_blank"> Government of Canada Website</a></li>
             </ul>
         </section>
 
@@ -349,7 +427,7 @@
     <!-- Initialize the deck -->
     <script>
     $(function() {
-      $.deck('.slide');
+      $.deck('.slide'); 
     });
     </script>
 
