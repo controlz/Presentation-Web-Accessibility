@@ -29,7 +29,7 @@ Hardware and Software to aid people's computer use
 * Voice recognication programs
 * Braille displays
 * Screen magnifiers
-* Browser options/confirations
+* Browser options/configurations
 * Browser extensions
 
 ##Why Accessibility Matters
@@ -272,5 +272,3 @@ Good sites:
 * [Center for Disease Control Website](http://www.cdc.gov)
 * [U.S Government's Offical Web Portal](http://www,usa.gov)
 * [Government of Canada Website](http://www.canada.ca)
-
-Thank You

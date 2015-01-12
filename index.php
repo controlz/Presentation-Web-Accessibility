@@ -103,7 +103,7 @@
                 <li>Voice recognication programs</li>
                 <li>Braille displays</li>
                 <li>Screen magnifiers</li>
-                <li>Browser options/confirations</li>
+                <li>Browser options/configurations</li>
                 <li>Browser extensions</li>
             </ul>
         </section>
