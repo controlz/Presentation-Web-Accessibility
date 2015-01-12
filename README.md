@@ -1,60 +1,272 @@
-#deck.js
+Web Accessibility
 
-A JavaScript library for building modern HTML presentations. deck.js is flexible enough to let advanced CSS and JavaScript authors craft highly customized decks, but also provides templates and themes for the HTML novice to build a standard slideshow.
+    What it means and why it matters.
+    Making websites compliant with guidelines and laws.
+    Techniques and tools for developers.
 
-## Quick Start
+Web Accessibility
 
-This repository includes a `boilerplate.html` as a starting point, with all the extensions included. Just [download it](https://github.com/imakewebthings/deck.js/archive/latest.zip), open `boilerplate.html`, and start editing your slides.
+    Is about making apps and websites that are inclusive to all users regardless of web browsing experience or their physical or mental capabilities
 
-## Documentation
+Computer Use Challenges
 
-Check out the [documentation page](http://imakewebthings.github.com/deck.js/docs) for more information on the methods, events, and options available in core and all the included extensions.  A sample standard slide deck is included in the package under the `introduction` folder.  You can also [view that sample deck](http://imakewebthings.github.com/deck.js/introduction) online to play with the available style and transition themes.
+    Reading Difficulties
+    Difficulty Hearing
+    Difficulty Seeing / Colour Blindness
+    Issues with Dexterity
+    Reduced Motor Skills
+    Declined Cognitive Abilities
 
-## Extensions, Themes, and Related Projects
+Assistive Technologies
 
-Take a look at [the wiki](https://github.com/imakewebthings/deck.js/wiki) for lists of extensions, themes, and other related goodies.  If you have a publicly available project of your own, feel free to add to the list.
+    Hardware and Software to aid people's computer use
 
-## Dependencies (included in this repository)
+    Screen readers
+        JAWS (most popular)
+        Thunder
+        ORCA (linux)
+        Chrome (Chrome Extension)
+    Voice recognication programs
+    Braille displays
+    Screen magnifiers
+    Browser options/confirations
+    Browser extensions
 
-- [jQuery](http://jquery.com)
-- [Modernizr](http://modernizr.com)
+Why Accessibility Matters
 
-## Tests & Support
+    So many of us with disabilities
+    Social Inclusion - "no gets left behind"
+    Equal access to information and equal opportunity
+    It's the Law! (depending on jurisdiction and company size)
 
-Unit tests are written with [Jasmine](http://pivotal.github.com/jasmine/) and [jasmine-jquery](https://github.com/velesin/jasmine-jquery). You can [run them here](http://imakewebthings.github.com/deck.js/test).
+Additional considerations:
 
-deck.js has been tested with jQuery 1.6+ and works in IE7+, Chrome, FF, Safari, and Opera. The more capable browsers receive greater enhancements, but a basic cutaway slideshow will work for all browsers listed above. Please don't give your presentations in IE6.
+    Search Engine Optimization
+    Accessibility and usability go hand in hand
+    Entire world is moving to an accessible web, this decade!
 
-For any questions or general discussion about deck.js please direct your attention to the [mailing list](http://groups.google.com/group/deckjs) (uses Google groups.)  If you would like to report a bug, please see the [issues page](https://github.com/imakewebthings/deck.js/issues).
+Canadian Accessibility Standards
 
-## Printing
+    Approved Common Look and Feel (CLF) 1.0 standards in 2000
+        mirrored Web Content Accessibility Guidelines (WCAG) 1.0
+    2011, CLF 2.0 was replaced with the Standard on Web Accessibility
+        Based on WCAG 2.0
+        Part of a group of official Web Standards for the Government of Canada
+            Accessibility, Usability, Operability, Optimization for Mobile
 
-Core includes stripped down black and white print styles for the standard slide template that is suitable for handouts.
+Ontario Accessibility Laws
 
-## Awesome Contributors
+    Ontario has been early leader in accessibility
 
-- [jbuck](https://github.com/jbuck)
-- [cykod](https://github.com/cykod)
-- [dougireton](https://github.com/dougireton)
-- [awirick](https://github.com/awirick)
-- Daniel Knittl-Frank
-- [alexch](https://github.com/alexch)
-- [twitwi](https://github.com/twitwi)
+    Enacted Accessibility for Ontarians with Disabilities (AODA)
+    Making sites compliant with WCAG 2.0 Level AA:
+        Government sites by 2012
+        Large public sector organizations, by 2013
+        Small public sector organizations, by 2014
+        Large organizations, existing sites by 2014
+        Small organizations, existing sites by 2015
+        All public websites and content by 2021
 
-If you would like to contribute a patch to deck.js please do as much as you can of the following:
+Legal Enforcement?
 
-- Add or amend Jasmine tests.
-- Add inline documentation.
-- If the standard snippet of an extension changes, please change it in both the introduction deck and the snippet html in the extension folder.
-- If the API changes, it would be awesome to receive a parallel pull request to the gh-pages branch which updates the public-facing documentation.
+Failure to comply to AODA could result in fines of:
 
-## License
+    $50,000 per day for directors and officers
+    up to $100,000 per day for corporations.
 
-Copyright (c) 2011-2014 Caleb Troughton
+Web Accessible Initiatives
 
-Licensed under the [MIT license](https://github.com/imakewebthings/deck.js/blob/master/MIT-license.txt)
+    AODA (Accessibility for Ontarians with Disabilities Act)
+    ADA (Americans with Disabilities Act)
+    Section 508: eliminate barriers in information technology
+    PDF/UA: Universal Accessibility standards for documents
+    ...plus more from all over the world
 
-## Donations
+Web Content Accessibility Guidelines (WCAG)
 
-[![Gittip donate
-button](http://img.shields.io/gittip/imakewebthings.png)](https://www.gittip.com/imakewebthings/ "Donate weekly to this project using Gittip")
+    WCAG 2.0 is an internationally accepted standard for web accessibility developed by the World Wide Web Consortium (W3C), an international team of experts 
+
+    pronounced "wick-ag"
+    provides guidelines for organizations to follow to make their websites more accessible
+    each guideline has testable success criteria
+    classified into 3 levels of accessibility: A, AA and AAA
+    12 guides organized into 4 principles
+
+Principles of Accessibility
+
+    Perceivable
+    Operable
+    Understandable
+    Robust
+
+Perceivable
+
+    Information and user interface must be presented to users in ways they can perceive.
+
+    Text Alternatives
+    Provide alternatives for non-text content.
+
+    Time-based Media
+    Provide alternatives for time-based media (audio/video).
+
+    Adaptable
+    Create content that can be presented in different ways without losing information.
+
+    Distinguishable
+    Make it easier for users to see and hear content.
+
+Operable
+
+    Users must be able to use the interface. It cannot require interaction that a user cannot perform.
+
+    Keyboard Accessible
+    Make all functionality available from a keyboard.
+
+    Enough Time
+    Provide users enough time to read and use content.
+
+    Seizures
+    Do not design content in a way that is known to cause seizures.
+
+    Navigable
+    Provide ways to help users navigate, find content, and determine where they are.
+
+Understandable
+
+    Users must be able to understand the information as well as how to use the interface
+
+    Readable
+    Make text content readable and understandable.
+
+    Predictable
+    Make Web pages appear and operate in predictable ways.
+
+    Input Assistance
+    Help users avoid and correct mistakes.
+
+Robust
+
+    Content must be interpreted reliably by a wide variety of user agents
+
+    Compatible
+    Maximize compatibility with current and future user agents, including assistive technologies.
+
+Making Websites Accessible
+
+    Provide alternate text and formats
+    Use headings correctly
+    Use distinct and meaningful titles
+    Simply navigation and consider keyboard only users, use skip navigation links
+    Make all functionality available via keyboard, or skippable
+    Make all form inputs have an associated label
+    Have visible indication of focus
+    Include captions audio/video clips
+
+    Use strong contrast between text and background
+    Avoid the use of colour indicators
+    Avoid time limits when asking users to provide a response or information
+    Avoid blinking images auto play content
+    Avoid CAPTCHAs
+    Provide data tables for graphs
+
+Accessibility Techniques
+
+    Techniques for WCAG 2.0 provided by W3C
+    Web Accessibility Initiative – Accessible Rich Internet Application (WAI-ARIA or just ARIA)
+        a set of attributes to help enhance the semantics of a web site or web application to help assistive technologies
+        ARIA Landmarks (role="navigation") gives us information about the purpose of an element
+        ARIA attributes (aria-*) gives information about the state of an element
+        Techniques for WAI-ARIA
+
+Provide alternative text to describe images:
+
+<img src="logo.png" alt="Ekomodi Enterprises: Vehicles your way." >
+
+Provide alternative text to describe photos:
+
+<img src="lottery_winners.gif" alt="Husband and wife jumping for joy holding a winning lottery ticket" >
+
+For purely decorative images use empty alt:
+
+<img src="snowflake.png" alt="" >
+
+Highlight links when in focus:
+[IMAGE: "Example of Focus"]
+
+a:focus { 
+    border: 1px solid #ffa500; 
+}
+
+Adding skip to links:
+
+<div class="skip">
+    <a href="#navigation">Skip to navigation</a> |
+    <a href="#main-content">Skip to main content</a>
+</div>
+
+<nav id="navigation">
+    <ul>
+    ...
+    </ul>
+</nav>
+
+<a name="main-content"></a>
+<p>Main content</p>
+
+Using ARIA Landmark Roles:
+
+<header role="banner">
+  <h1>Title of your document</h1>
+  <nav role="navigation">
+    <ul>
+        <li><a href="#">Link 1</a></li>
+        ...
+    </ul>
+  </nav>
+</header>
+
+<main role="main">
+  <h2>Main Content</h2>
+  <p>Juicy content</p>
+</main>
+
+<aside role="complementary">
+  <h2>Sidebar</h2>
+  <p>Complementary content</p>
+</aside>
+
+<footer role="contentinfo">
+  <h2>Footer</h2>
+  <p>Information about the document</p>
+</footer>
+
+Testing Web Accessibility
+
+When testing your websites:
+
+    Try navigating without a mouse
+    Test with CSS and JavaScript disabled
+    Use assistive technologies or software that mimics them:
+        Browser extensions/plugins
+        Screen readers emulators, Chrome Vox
+    Use online tools like validators or analyzers:
+        AChecker
+        WAVE (Web Accessibility Evaluation Tool
+        SortSite - Accessibility Checker and Validator
+
+Examples of Accessible Sites
+
+Good sites:
+
+    Center for Disease Control Website
+    U.S Government's Offical Web Portal
+    Government of Canada Website
+
+Bad sites:
+
+    Mr. Bottles
+    Yvettes Bridal Formal 
+
+Thank You
+
+1 / 50

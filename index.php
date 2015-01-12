@@ -97,7 +97,7 @@
                         <li>JAWS (most popular)</li>
                         <li>Thunder</li>
                         <li>ORCA (linux)</li>
-                        <li>Chrome (Chrome Extension)</li>
+                        <li>Chrome Vox (Chrome Extension)</li>
                     </ul>
                 </li>
                 <li>Voice recognication programs</li>
@@ -160,11 +160,9 @@
                 <li>
                     Making sites compliant with WCAG 2.0 Level AA:
                     <ul>
-                        <li>Government sites by 2012</li>
-                        <li>Large public sector organizations, by 2013</li>
-                        <li>Small public sector organizations, by 2014</li>
-                        <li>Large organizations, existing sites by 2014</li>
-                        <li>Small organizations, existing sites by 2015</li>
+                        <li>Government and non-profit, existing sites by 2012</li>
+                        <li>Government and non-profit, all sites and content by 2016</li>
+                        <li>Large organizations, new sites and content by 2014</li>
                         <li>All public websites and content by 2021</li>
                     </ul>
                 </li>
