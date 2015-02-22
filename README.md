@@ -205,8 +205,6 @@ For purely decorative images use empty alt:
 Highlight links when in focus:
 
 ```
-[IMAGE: "Example of Focus"]
-
 a:focus { 
     border: 1px solid #ffa500; 
 }
