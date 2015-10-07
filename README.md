@@ -4,7 +4,7 @@ Presentation made for a monthly event called [DevTricks](https://github.com/soft
 
 Talk was done January 12th 2015.
 
-View the presentation at [http://michaelencode.com/presentations/2015-12-web-accessibility/](http://michaelencode.com/presentations/2015-12-web-accessibility/).
+View the presentation at [http://michaelencode.com/presentations/2015-01-12-web-accessibility/](http://michaelencode.com/presentations/2015-01-12-web-accessibility/).
 
 Presentation covers:
 
